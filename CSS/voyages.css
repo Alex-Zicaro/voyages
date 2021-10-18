@@ -1,1 +1,29 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
 
+footer {
+    background-color: gray;
+}
+
+.footerr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Partenaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reseau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
