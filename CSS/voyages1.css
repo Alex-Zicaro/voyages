@@ -73,7 +73,6 @@
         background-color: rgb(210, 244, 250);
         margin: auto;
         
-        
     }
     .lieux {
         
@@ -90,7 +89,9 @@
     .tout1 {
         display: flex;
         flex-direction: column;
+        
     }
+
 
    .tout2 {
        
@@ -108,4 +109,16 @@
        
        justify-content: space-evenly;
        margin-left: 3%;
+       margin-bottom: 3%;
+   }
+   #para2 {
+      width: 50%;
+       margin: auto;
+       background-color: blue;
+       border-style: groove;
+       font-family: 'Carrois Gothic SC', sans-serif;
+       font-size: 28px;
+   }
+   a {
+       text-decoration: none;
    }
