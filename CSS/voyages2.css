@@ -1,0 +1,36 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+main{
+color: white;
+}
+.altout {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.ALtext{
+    width: 670px;
+}
+main{
+    background-image: url(https://cdn.pixabay.com/photo/2014/05/02/23/46/bridge-336475_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+th {
+    background-color: rgb(235,235,235);
+}
+
+td {
+    text-align: center;
+}
