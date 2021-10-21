@@ -1,70 +1,82 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+.titre1 {
+    display: flex;
+    justify-content: center;
+    border-style: outset;
 }
 
-#LMmenu{
-    width: 100%; 
-    height: 60px; 
-    margin: 0;
-    z-index: 99; 
-    position: relative; 
-    background-color: #444444;
-    }
-    .LMnavbar{
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    position: absolute; 
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(202, 200, 200);
+    position: sticky;
+    top: 0px;
+}
 
-    }
-    .LMnavbar li{
-    height: auto;
-    width: 135.8px; 
-    float: left;  
-    text-align: center; 
-    list-style: none;  
-    font-family: 'Merienda', cursive; 
-    padding: 0;
-    margin: 0;
-    background-color: #444444;
-    }
-    .LMnavbar a{							
-    padding: 18px 0;  
-    border-left: 1px solid #ccc9c9;
-    text-decoration: none; 
-    color: white; 
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+}
+
+nav a{
     display: block;
-    }
-    .LMnavbar li:hover, a:hover {
-    background-color: #444444;
-    } 
-    .LMnavbar li ul{
+    text-decoration: none;
+    color: black
+    /* border-bottom: 2px solid transparent; */
+    padding: 10px 0px;
+}
+nav a:hover{
+    color: rgb(217, 255, 0);
+    border-bottom: 2px solid rgb(217, 255, 0);
+}
+
+.sous{
     display: none;
-    height: auto;									
-    margin: 0; 
-    padding: 0; 
-    }				
-    .LMnavbar li:hover ul{
-    display: block;
-    }
-    .LMnavbar li ul li {
-    background-color: #444444;
-    } 
-    .LMnavbar li ul li a{
-    border-left: 1px solid #444444; 
-    border-right: 1px solid #444444; 
-    border-top: 1px solid #c9d4d8; 
-    border-bottom: 1px solid #444444; 
-    }
-    .LMnavbar li ul li a:hover{
-    background-color: #a3a1a1;
-    }
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: flex;
+    flex-flow: column wrap;
+}
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
 
 
-    body {
-        background-image: url(../voyages/russie.png);
+    main {
+        background-image: url(../voyages/images/russie.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -79,8 +91,8 @@
         font-family: 'Carrois Gothic SC', sans-serif;
         border-style: inset;   
     }
-    #titre1 {
-        color: blueviolet;
+    #title1 {
+        color: rgb(43, 92, 226);
         text-align: center;
         margin-top: 1%;
         margin-bottom: 1%;
@@ -96,7 +108,7 @@
    .tout2 {
        
    }
-   #titre2 {
+   #title2 {
        color: rgb(0, 0, 0);
        background-color: rgb(6, 22, 250);
        text-align: center;
@@ -122,3 +134,82 @@
    a {
        text-decoration: none;
    }
+
+
+   .tout3 {
+font-family: 'Carrois Gothic SC', sans-serif;
+margin-top: 5%;
+   }
+   #title3 {
+background-color: red;
+text-align: center;
+font-size: 50px;
+margin-bottom: 7px;
+   }
+   #para3 {
+background-color: blue;
+width: 50%;
+margin: auto;
+font-size: 20px;
+   }
+
+.medias3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+
+.p_bouffe{
+    width:400px;
+    padding-top:10px;
+    
+}
+.bouffe {
+    display: flex;
+    flex-direction: column; background-color: rgb(210, 244, 250);
+    border-radius: 2%;
+}
+.imgbouffe {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imgbouffe:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+footer {
+    background-color: gray;
+}
+
+.footerr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Partenaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reseau {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
