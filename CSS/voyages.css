@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Merienda', cursive;
 }
+main{
+    background-image: url(../voyages/images/background-accueil.jpg);
+}
 
 footer {
     background-color: gray;
@@ -29,10 +32,10 @@ a {
     text-decoration: none;
 }
 
+
 .titre1 {
     display: flex;
     justify-content: center;
-    border-style: outset;
 }
 
 nav{
@@ -97,4 +100,30 @@ nav > ul li:hover .sous{
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+
+.ALtext1 {
+width: 50%;
+margin-top: 2%;
+}
+.seultout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ALtitreb {
+    color: #03045E;
+}
+
+.needMarginTopéBot {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#TitreAccueil {
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
 }

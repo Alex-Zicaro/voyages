@@ -15,9 +15,10 @@ align-items: center;
     width: 50%;
 }
 main{
-    background-image: url(https://cdn.pixabay.com/photo/2014/05/02/23/46/bridge-336475_960_720.jpg);
+    background-image: url(../voyages/images/background-étoilé.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'PT Sans', sans-serif;
 }
 
 a {
