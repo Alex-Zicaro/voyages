@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Carrois Gothic SC', sans-serif;
 }
 .titre1 {
     display: flex;
@@ -30,7 +29,6 @@ a {
     }
     .lieux {
         
-        font-family: 'Carrois Gothic SC', sans-serif;
         border-style: inset;   
     }
     #title1 {
@@ -52,7 +50,6 @@ a {
        margin-top: 5%;
        margin-bottom: 3%;
        font-size: 430%;
-       font-family: 'Carrois Gothic SC', sans-serif;
    }
    #media2 {
        
@@ -65,7 +62,6 @@ a {
        margin: auto;
        background-color: blue;
        border-style: groove;
-       font-family: 'Carrois Gothic SC', sans-serif;
        font-size: 28px;
    }
    a {
@@ -74,7 +70,6 @@ a {
 
 
    .tout3 {
-font-family: 'Carrois Gothic SC', sans-serif;
 margin-top: 5%;
    }
    #title3 {

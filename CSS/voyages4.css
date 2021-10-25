@@ -1,4 +1,7 @@
-main {
+main{
+    min-height:63vh;
+}
+.tabuse{
     background-color: rgb(243, 162, 176);
     display: flex;
     flex-direction: column;
