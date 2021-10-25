@@ -21,8 +21,87 @@ main{
 background-image: url(https://zupimages.net/up/21/42/g3g7.jpg);
 background-repeat: no-repeat;
     background-size: cover;
+    
+    
+    
 }
 
 a {
     text-decoration: none;
 }
+.nourriture {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    width: 900px;
+}
+.textenourriture {
+    margin-left: 50px;
+    width: 500px;
+}
+.nourriturem{
+    background-color: rgb(0, 0, 0);
+    border: 4mm ridge rgba(64, 220, 50, 0.6);
+    width: 800px;
+}
+.burrito {
+    border-radius: 100px;
+}
+.ceviche {
+    border-radius: 100px;
+}
+.chilaquiles {
+    border-radius: 100px;
+}
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+th {
+    background-color: rgb(235,235,235);
+}
+
+td {
+    text-align: center;
+}
+#tableaumex{
+    background-color: rgb(0, 0, 0);
+    border: 4mm ridge rgba(64, 220, 50, 0.6);
+}
+.h1 {
+    color: black;
+}
+.activit {
+    margin-left: 10%;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+ol {
+    margin-left: 70px;
+}
+.listeac {
+    background-color: rgb(0, 0, 0);
+    border: 4mm ridge rgba(64, 220, 50, 0.6);
+    width: 430px;
+}
+.imagez {
+    width: 100%;
+    height: 100%;
+    }
+    .imagez img {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+        -webkit-transition: all 1s ease; /* Safari et Chrome */
+        -moz-transition: all 1s ease; /* Firefox */
+        -ms-transition: all 1s ease; /* Internet Explorer 9 */
+        -o-transition: all 1s ease; /* Opera */
+        transition: all 1s ease;
+        }
+        .imagez:hover img {
+            /* L'image est grossie de 25% */
+            -webkit-transform:scale(1.25); /* Safari et Chrome */
+            -moz-transform:scale(1.25); /* Firefox */
+            -ms-transform:scale(1.25); /* Internet Explorer 9 */
+            -o-transform:scale(1.25); /* Opera */
+            transform:scale(1.25);
+            }
