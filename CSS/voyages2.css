@@ -16,7 +16,7 @@ align-items: center;
     
 }
 main{
-    background-image: url(../images/background-étoilé.jpg);
+    background-image: url(../voyages/images/background-étoilé.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
