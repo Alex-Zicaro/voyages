@@ -14,6 +14,9 @@ main{
 
 footer {
     background-color: gray;
+    
+    
+
 }
 
 .footerr {
@@ -112,6 +115,11 @@ a {
 width: 50%;
 margin-top: 2%;
 }
+.ALtext2 {
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .seultout {
     display: flex;
     flex-direction: column;
@@ -149,5 +157,11 @@ margin-top: 2%;
     margin-bottom: 2%;
     display: flex;
     justify-content: center;
+}
+
+.reseau {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 

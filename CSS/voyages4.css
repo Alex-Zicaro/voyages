@@ -11,11 +11,11 @@ main{
 }
 h1 {
     color: rgb(0, 0, 0);
-    font-size: 40px;
 }
+
 p {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+
 }
 .form {
     display: flex;
